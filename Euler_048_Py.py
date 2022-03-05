@@ -1,6 +1,6 @@
 #Ariel Tynan
 #Euler Problem 048, Self powers, solved in Python
-#Started 4 March 2022
+#Started 4 March 2022, completed 5 March 2022... Misleading as its a little after 12am 
 
 #Method of converting large data values to strings for computation was not developed by me for this problem
 #Even though it kind of was this whole problem
@@ -35,7 +35,6 @@ def powerStrings(sa, sb): # Function derived from "mits" on GeeksforGeeks
     return powerLL(a, b);
 
 sum = 0
-temp = 0
 for i in range(1,1001): #from 1 to 1000
     sa = sb = "{}".format(i) #convert int to string
     #print(i, powerStrings(sa, sb))
